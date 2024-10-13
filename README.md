@@ -18,3 +18,8 @@ Running the Program:
     Made `trans_script.sh` executable with, chmod +x 
     Ran the script using bash "sh trans_script.sh"
     This completed the sorting process and generated the output.
+
+   '''
+   sh run.sh
+   '''
+   
