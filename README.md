@@ -18,11 +18,15 @@ Running the Program:
     The Snakemake file used is `sort_files.smk`, and a folder named `script_sort` was set up to store a script called `get_sorted_file.sh`.
 
 2. **Execution Steps:**
-    Made `Scripts.sh` executable with, chmod +x 
-    Ran the script using bash "sh Scripts.sh"
-    This completed the sorting process and generated the output file sorted_bed_file_per_sample.
+    Made `Scripts.sh` executable with,
+   ```
+    chmod +x Scripts.sh
+   ```
 
-   '''
+    Ran the script using 
+    
+   ```
    sh Scripts
-   '''
-   
+   ```
+   This completed the sorting process and generated the output file sorted_bed_file_per_sample.
+
