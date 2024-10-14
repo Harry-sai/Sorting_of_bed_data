@@ -1,8 +1,8 @@
 import sys
 import pandas as pd
 
-standard_df = pd.read_csv("data/standard_selection.tsv",sep = "\t",header = "infer")
-values_df = pd.read_csv("data/values.tsv",sep = "\t",header = "infer")
+standard_df = pd.read_csv("datas/standard_selection.tsv",sep = "\t",header = "infer")
+values_df = pd.read_csv("datas/values.tsv",sep = "\t",header = "infer")
 
 standard_df.index = standard_df["count"]
 values_df.index = values_df["val"]
